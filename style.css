@@ -7,7 +7,7 @@
 
 body {
 	font-family: 'aaargh';
-	font-size: 2.5em;
+	font-size: 2em;
 	color: white;
 	background-color: black;
 }
@@ -29,6 +29,10 @@ table {
 th {
 	text-align: right;
 	color: rgb(219, 198, 2);
+}
+
+td {
+	text-align: left;
 }
 
 table tr td {
