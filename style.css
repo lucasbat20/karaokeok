@@ -1,0 +1,48 @@
+/* Fonts */
+@font-face {
+	font-family: 'aaargh';
+	src: url('aaargh.woff') format('woff');
+}
+
+
+body {
+	font-family: 'aaargh';
+	font-size: 1.3em;
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(145, 132, 4);
+}
+
+h2 {
+	margin-left: 60px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	text-align: right;
+	color: rgb(219, 198, 2);
+}
+
+table tr td {
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	text-align: left;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(255,255,255,0.7);
+}
