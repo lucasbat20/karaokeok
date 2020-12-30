@@ -41,8 +41,9 @@ h2 {
 }
 
 table {
-	margin-left: 80px;
-	margin-right: 400px;
+	margin-left: 5%;
+	margin-right: 25%;
+	width: 70%;
 	background-color: var(--skin-transparent);
 }
 
