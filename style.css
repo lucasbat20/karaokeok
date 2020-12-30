@@ -36,16 +36,26 @@ body {
 		background: url("pexels-pixabay-33779.jpg");
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-position: bottom right;
-		background-size: cover;
+		background-position: top right 5%;
+		background-size: auto 250px;
 		background-color: black;
 	}
+}
+
+header {
+	height: 183px;
 }
 
 h1 {
 	font-family: 'Folks-Bold-webfont';
 	text-align: center;
 	color: var(--skin);
+}
+@media only screen and (max-width: 1024px) {
+	h1 {
+		text-align: left;
+		margin-left: 5%;
+	}
 }
 
 h2 {
@@ -57,6 +67,12 @@ table {
 	margin-right: 25%;
 	width: 70%;
 	background-color: var(--skin-transparent);
+}
+@media only screen and (max-width: 1024px) {
+	table {
+		width: 90%;
+		background-color: var(--skin-transparent);
+	}
 }
 
 th {
@@ -81,3 +97,12 @@ a {
 a:hover {
 	color: rgba(0,0,0,0.5);
 }
+@media only screen and (max-width: 1024px) {
+	a:hover {
+		color: black;
+	}
+}
+
+
+
+
