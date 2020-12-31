@@ -21,7 +21,8 @@
 
 body {
 	font-size: 50px;
-	color: white;
+	font-family: 'Folks-Light-webfont';
+	color: var(--skin);
 	background: url("pexels-pixabay-33779.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -31,14 +32,8 @@ body {
 }
 @media only screen and (max-width: 1024px) {
 	body {
-		font-size: 50px;
-		color: white;
-		background: url("pexels-pixabay-33779.jpg");
-		background-attachment: fixed;
-		background-repeat: no-repeat;
 		background-position: top right 5%;
 		background-size: auto 250px;
-		background-color: black;
 	}
 }
 
@@ -65,6 +60,7 @@ h2 {
 table {
 	margin-left: 5%;
 	margin-right: 25%;
+	padding-left: 5px;
 	width: 70%;
 	background-color: var(--skin-transparent);
 }
@@ -79,6 +75,8 @@ th {
 	font-family: 'Folks-Normal-webfont';
 	text-align: right;
 	color: black;
+	padding-bottom: 8px;
+	padding-left: 12px;
 }
 
 td {
@@ -87,6 +85,7 @@ td {
 	text-align: left;
 	padding-top: 8px;
 	padding-left: 12px;
+	padding-right: 12px;
 }
 
 a {
@@ -101,6 +100,13 @@ a:hover {
 	a:hover {
 		color: black;
 	}
+}
+
+footer {
+	line-height: 150px;
+	font-size: 30px;
+	height: 150px;
+	text-align: center;
 }
 
 
