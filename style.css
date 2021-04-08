@@ -23,7 +23,7 @@ body {
 	font-size: 50px;
 	font-family: 'Folks-Light-webfont';
 	color: var(--skin);
-	background: url("pexels-pixabay-33779.jpg");
+	background: url("background.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: bottom right;
@@ -53,8 +53,8 @@ h1 {
 	}
 }
 
-h2 {
-	margin-left: 60px;
+h2, h3 {
+	text-align: center;
 }
 
 table {
@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-	color: rgba(0,0,0,0.5);
+	text-shadow: 0 0 5px black;
 }
 @media only screen and (max-width: 1024px) {
 	a:hover {
@@ -107,6 +107,27 @@ footer {
 	font-size: 30px;
 	height: 150px;
 	text-align: center;
+}
+
+
+.videoContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  /* optional */
+  width: 100%;
+  height: 100%; 
 }
 
 
